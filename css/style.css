@@ -94,3 +94,10 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+.jumbotron{
+	width:25%;
+	display: flex;
+  align-items: center;
+	background: transparent;
+}
