@@ -176,13 +176,11 @@ canvas{
 }
 
 .container{
-	width:200px;
-	height: 150px;
+	margin-top: 40px;
+
 	position: absolute;
-	align : right;
-	align-content: center;
-	background: rgba(255, 0, 0, 0.2);
-	vertical-align:middle;
+	overflow: hidden;
+
 }
 h1{
 	vertical-align: middle;
@@ -190,13 +188,13 @@ h1{
 }
 
 .clip-text {
-
+		width:100%;
     font-size: 6em;
     font-weight: bold;
     line-height: 1;
     position: absolute;
     display: inline-block;
-   align-self: center;
+		justify-content: center;
     text-align: center;
     /* Color fallback */
     color: #fff;
@@ -204,8 +202,8 @@ h1{
 
     -webkit-text-fill-color: transparent;
 
-		left:0; right:0;
-        top:0; bottom:0;
+
+
 }
 
 .clip-text:before,
